@@ -20,7 +20,8 @@ class AppTheme {
               fontSize: 12,
               fontWeight: FontWeight.w700,
             )),
-        textTheme: GoogleFonts.montserratTextTheme(),
+        textTheme: GoogleFonts.interTextTheme(),
+        //GoogleFonts.montserratTextTheme(),
       );
 }
 
