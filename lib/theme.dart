@@ -8,6 +8,7 @@ class AppTheme {
   AppTheme._init();
 
   ThemeData get lightTheme => ThemeData.light().copyWith(
+        scaffoldBackgroundColor: ColorConstants.scaffoldBackground,
         inputDecorationTheme: InputDecorationTheme(
             border: OutlineInputBorder(
               borderSide: BorderSide.none,
@@ -28,4 +29,6 @@ class AppTheme {
 class ColorConstants {
   static const Color navyBlue = Color(0xFF000080);
   static const Color lotusBlue = Color(0xFF6767E1);
+  static const Color pastelBlue = Color(0xFF9797F2);
+  static const Color scaffoldBackground = Color(0xFFECEDEF);
 }
